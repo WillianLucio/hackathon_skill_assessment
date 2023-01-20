@@ -31,7 +31,7 @@ class JsonWriter
     File.write('file.json', content)
   end
 end
-  
+
 class XMLWriter
   def self.writer
     content = '
@@ -67,11 +67,11 @@ class XMLWriter
     File.write('file.xml', content)
   end
 end
-  
+
 puts "Qual arquivo você deseja salvar?"
 puts "JSON"
 puts "CSV"
-  
+
 option = gets
 
 OPTIONS = {
