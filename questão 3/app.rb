@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 class Notification
   def initialize; end
 
